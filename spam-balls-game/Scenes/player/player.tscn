@@ -6,3 +6,7 @@
 
 [node name="Guy" type="Sprite2D" parent="."]
 texture = ExtResource("1_cvnsp")
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+
+[node name="CollisionPolygon2D" type="CollisionPolygon2D" parent="CharacterBody2D"]
